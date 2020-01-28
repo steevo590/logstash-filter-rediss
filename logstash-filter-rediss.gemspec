@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
 
   # Gem dependencies
   s.add_runtime_dependency "logstash-core-plugin-api", "~> 2.1"
-  s.add_runtime_dependency 'redis', '~> 3.3', '>= 3.3.3'
+  s.add_runtime_dependency 'redis', '>= 3.3.3'
   s.add_runtime_dependency 'redlock', '~> 0.2', '>= 0.2.0'
   s.add_development_dependency 'logstash-devutils', '~> 0'
 end
